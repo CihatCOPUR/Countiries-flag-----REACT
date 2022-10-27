@@ -12,19 +12,3 @@ body{
     height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.card{
-    background-color: rgb(165, 42, 42);
-}
-.lang{
-    cursor: pointer;
-}
-.lang:hover{
-box-shadow: 3px 3px 20px 5px  rgba(0,0,0,0.5 );
-}
-
-.logo{
-    transition: transform 0.5s;
-}
-.lang:hover .logo{
-    transform: scale(1.2);
-}

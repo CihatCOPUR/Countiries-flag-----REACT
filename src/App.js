@@ -1,17 +1,20 @@
-import Card from "./components/Card";
-import Header from "./components/Header";
+
+
 import "../src/index.css";
-import Container from "react-bootstrap/Container"
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
+import Main from "./components/main/Main";
+
 
 
 function App() {
   return (
    
-   <Container className="text-center mt-4 p-4">
+<center>
 <Header/>
-<Card/>
-
-   </Container>
+<Main/>
+<Footer/>
+</center>
   
   )
 }
