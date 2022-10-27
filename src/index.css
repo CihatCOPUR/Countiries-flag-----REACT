@@ -8,7 +8,39 @@
 
 body{
    
-    background-color: rgb(30 218 156)!important;
+    background-color: rgba(0,212,255,1)!important;
     height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    width: 300px;
+    height: 250px;
+    padding: 1rem;
+    
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+    
+    
+}
+.card{
+    border: 5px solid red;
+    width: 300px;
+   height: 500px;
+    box-shadow: 7px 7px 7px;
+    position: relative;
+}
+.card:hover{
+    box-shadow: 11px 11px 11px 11px;
+}
+
+.header{
+    font-weight: bold !important;
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(1,14,22,1) 18%, rgba(0,212,255,1) 100%);
+    color: brown;
+    padding-top: 1rem;
 }
